@@ -5,4 +5,4 @@
     tar cvfz sitename_$(date "+%Y-%m-%d_%H-%M-%S").tar.gz Ordner/
 
 #### Site per SSH entpacken:
-	tar -xvzf sitename.tar.gz
+	tar -xvzf *DATEINAME*.tar.gz
