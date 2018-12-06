@@ -1,0 +1,47 @@
+*========================================*
+|                                        |
+|            Project-Name.de             |
+|                                        |
+*========================================*
+
+
+Komplette Site per SSH packen:
+-------------------------------------------------------------------------------------
+tar cvfz sitename_$(date "+%Y-%m-%d_%H-%M-%S").tar.gz Ordner/
+
+
+
+
+Site per SSH entpacken:
+-------------------------------------------------------------------------------------
+tar -xvzf sitename.tar.gz
+
+
+
+mySQL Dump erstellen:
+-------------------------------------------------------------------------------------
+mysqldump -hDATENBANKHOST -uDBUSER -pDBPASSWORT --opt DBNAME | gzip > Website2015/SITENAME.sql.gz
+
+
+
+mySQL Dump zurückspielen:
+-------------------------------------------------------------------------------------
+mysql -hDATENBANKHOST -uDBUSER -pDBPASSWORT DBNAME < dump.sql.gz
+
+
+
+
+
+
+https://hilfe-center.1und1.de/hosting/1und1-webhosting-c10085285/datenbanken-c10082637/mysql-c10082650/bedienung-c10082751/mysql-datenbank-ueber-ssh-sichern-und-wiederherstellen-a10783397.html
+
+
+
+
+
+
+
+MAC-Dateien (._*) wieder löschen:
+http://www.linux-praxis.de/linux1/befehle7.html
+-------------------------------------------------------------------------------------
+find . -iname "._*" -delete
