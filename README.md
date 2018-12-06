@@ -12,3 +12,7 @@
 
 ##### mySQL Dump zurückspielen:
 	mysql -hDATENBANKHOST -uDBUSER -pDBPASSWORT DBNAME < FILENAME.sql.gz
+
+
+
+[Anleitung bei Ionos](https://hilfe-center.1und1.de/hosting/1und1-webhosting-c10085285/datenbanken-c10082637/mysql-c10082650/bedienung-c10082751/mysql-datenbank-ueber-ssh-sichern-und-wiederherstellen-a10783397.html)
