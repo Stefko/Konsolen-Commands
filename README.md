@@ -11,7 +11,7 @@
 	mysqldump -hDATENBANKHOST -uDBUSER -pDBPASSWORT --opt DBNAME | gzip > FOLDER/FILENAME.sql.gz
 
 ##### mySQL Dump zurückspielen:
-	mysql -hDATENBANKHOST -uDBUSER -pDBPASSWORT DBNAME < FILENAME.sql.gz
+	mysql -hDBHOST -uDBUSER -pDBPASSWORT DBNAME < FILENAME.sql.gz
 
 
 
