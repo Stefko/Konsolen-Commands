@@ -20,4 +20,5 @@
 
 
 [MAC-Dateien (._*) wieder löschen:](http://www.linux-praxis.de/linux1/befehle7.html)
+
 	find . -iname "._*" -delete
